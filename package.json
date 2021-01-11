@@ -1,0 +1,18 @@
+{
+  "name": "backend-veggie-city",
+  "version": "1.0.0",
+  "description": "express server for the veggie-city frontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch server.js --exec node --experimental-modules server.js"
+
+  },
+  "author": "sagara dissanayake",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
