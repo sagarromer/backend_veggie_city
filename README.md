@@ -12,3 +12,8 @@
    10. create route for /api/products
    11. return products
    12. run npm start
+13. Add Redux to Product Screen
+    1. create product details constants, actions and reducers
+    2. add reducer to store.js
+    3. use action in ProductScreen.js
+    4. add /api/product/:id to backend api
