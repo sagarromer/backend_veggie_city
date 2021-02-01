@@ -17,3 +17,18 @@
     2. add reducer to store.js
     3. use action in ProductScreen.js
     4. add /api/product/:id to backend api
+18. Create Sample Users In MongoDB
+    1. npm install mongoose
+    2. connect to mongodb
+    3. create config.js
+    4. npm install dotenv
+    5. export MONGODB_URL
+    6. create models/userModel.js
+    7. create userSchema and userModel
+    8. create userRoute
+    9. Seed sample data
+19. Create Sample Products In MongoDB
+    1. create models/productModel.js
+    2. create productSchema and productModel
+    3. create productRoute
+    4. Seed sample data

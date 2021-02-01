@@ -1,8 +1,24 @@
+import bcrypt from 'bcryptjs';
+
 const data = {
+    users: [
+        {
+            name: 'sagara',
+            email: 'admin@example.com',
+            password: bcrypt.hashSync('1234', 8),
+            isAdmin: true,
+        },
+        {
+            name: 'sagara',
+            email: 'user@example.com',
+            password: bcrypt.hashSync('1234', 8),
+            isAdmin: false,
+        },
+    ],
     products: [
         {
-            _id: '1',
-            name: 'almonds',
+            
+            name: 'almonds new',
             category: 'vegetable',
             image: '/images/almonds.jpg',
             price: 120,
@@ -13,7 +29,7 @@ const data = {
             description: 'high quality fresh product',
         },
         {
-            _id: '2',
+            
             name: 'apple',
             category: 'vegetable',
             image: '/images/apple.jpg',
@@ -25,7 +41,7 @@ const data = {
             description: 'high quality fresh product',
         },
         {
-            _id: '3',
+            
             name: 'Lacoste banana',
             category: 'vegetable',
             image: '/images/banana.jpg',
@@ -37,7 +53,7 @@ const data = {
             description: 'high quality fresh product',
         },
         {
-            _id: '4',
+            
             name: 'Lacoste beans',
             category: 'vegetable',
             image: '/images/beans.jpg',
@@ -49,7 +65,7 @@ const data = {
             description: 'high quality fresh product',
         },
         {
-            _id: '5',
+            
             name: 'beetroot',
             category: 'vegetable',
             image: '/images/brinjal.jpg',
@@ -61,7 +77,7 @@ const data = {
             description: 'high quality fresh product',
         },
         {
-            _id: '6',
+            
             name: 'broccoli',
             category: 'vegetable',
             image: '/images/broccoli.jpg',
@@ -73,7 +89,7 @@ const data = {
             description: 'high quality fresh product',
         },
         {
-            _id: '7',
+            
             name: 'cashews',
             category: 'vegetable',
             image: '/images/cashews.jpg',
@@ -85,8 +101,8 @@ const data = {
             description: 'high quality fresh product',
         },
         {
-            _id: '8',
-            name: 'broccoli',
+            
+            name: 'broccolia',
             category: 'vegetable',
             image: '/images/corn.jpg',
             price: 139,
