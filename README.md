@@ -40,3 +40,8 @@
     5. install dotenv
     6. return token and data
     7. test it using postman
+27. Create Place Order API
+    1. createOrder api
+    2. create orderModel
+    3. create orderRouter
+    4. create post order route
