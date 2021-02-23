@@ -45,3 +45,10 @@
     2. create orderModel
     3. create orderRouter
     4. create post order route
+30. Add PayPal Button
+    1. get client id from paypal
+    2. set it in .env file
+    3. create route form /api/paypal/clientId
+    4. create getPaypalClientID in api.js
+    5. add paypal checkout script in OrderScreen.js
+    6. show paypal button
