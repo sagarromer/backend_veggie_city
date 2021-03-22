@@ -96,3 +96,6 @@
     2. create Order List Screen
     3. Add reducer to store
     4. show products on the screen
+44. Deliver Order
+    1. create constant, actions and reducers for deliver order
+    2. add order deliver action to order details screen
